@@ -1,0 +1,33 @@
+        body {
+          background-image: url('\\static\\img\\sample.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        input {
+          display: block;
+          width: 25%;
+          height: 50px;
+          font-size: 40px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        
+        label
+        {
+          display: block;
+          width: 25%;
+          height: 50px;
+          font-size: 40px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+
+        .submit-button {
+          display: block;
+          width: 25%;
+          height: 50px;
+          font-size: 25px;
+          margin-right: auto;
+          margin-left: auto;
+        }

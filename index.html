@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<head>
+    <title>Ad Campaign Prediction</title>
+</head>
+<body style="text-align: center;">
+    <h1 style="color: rgb(38, 0, 255); font-style: italic; text-align: center; font-size: 100px; padding-top: 25px;">MNIST Prediction</h1>
+    <form method="post" action="/predict">
+        <label for="age ">Enter Number in MNIST Database:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        <br>
+        <input type="submit" value="Predict" class="submit-button">
+        <br>
+        <br>
+    </form>
+    <h1 style="color: rgb(242, 240, 240); font-size: 75px; font-style: italic ;">{{ result }}</h1>
+</body>
+</html>
